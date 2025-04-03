@@ -1,5 +1,0 @@
-sistematico1=int(input("Ingrese el primer sistematico (max: 30): "))
-sistematico2=int(input("Ingrese el segundo sistematico (max: 30): "))
-sistematico3=int(input("Ingrese el tercer sistematico (max: 40): "))
-nota=(sistematico1+sistematico2+sistematico3)
-print("La nota del estudiante es: ", nota)
