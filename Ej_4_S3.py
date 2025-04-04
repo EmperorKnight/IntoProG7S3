@@ -22,6 +22,6 @@ while a4<1:
     
     print(" ")
     print("¿Desea reintroducir los valores?")
-    print("SI = 0 | NO = 1")
+    print("SI = 0 | NO >= 1")
     a4 = int(input())
     print(" ")
