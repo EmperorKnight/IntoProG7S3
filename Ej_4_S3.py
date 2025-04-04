@@ -1,14 +1,22 @@
+#Ejercicio 4: Cálculo del tiempo total de un viaje con escalas 
+
 a4=0
 
 while a4<1:
     print(" ")
-    pTramo = int(input("Introduzca el tiempo del primer tramo del vuelo: "))
-    pEscala = int(input("Introduzca el tiempo de la primera escala: "))
-    sTramo = int(input("Introduzca el tiempo del segundo tramo del vuelo: "))
-    sEscala = int(input("Introduzca el tiempo de la segunda escala: "))
-    tTramo = int(input("Introduzca el tiempo del tercer tramo del vuelo: "))
+    
+    print("Introduzca el tiempo del primer tramo del vuelo:")
+    primer_tramo = int(input("-> "))
+    print("Introduzca el tiempo de la primera escala:")
+    primera_escala = int(input("-> "))
+    print("Introduzca el tiempo del segundo tramo del vuelo:")
+    segundo_tramo = int(input("-> "))
+    print("Introduzca el tiempo de la segunda escala:")
+    segunda_escala = int(input("-> "))
+    print("Introduzca el tiempo del tercer tramo del vuelo:")
+    tercer_tramo = int(input("-> "))
 	
-    tiempo_viaje = ((((pTramo+pEscala)+sTramo)+sEscala)+tTramo)
+    tiempo_viaje = ((((primer_tramo + primera_escala) + segundo_tramo) + segunda_escala) + tercer_tramo)
 	
     print("El tiempo total del vuelo es: ", tiempo_viaje)
     

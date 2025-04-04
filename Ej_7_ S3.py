@@ -1,28 +1,30 @@
+#Ejercicio 7: Cálculo del precio final de un producto con impuestos y descuentos 
+
 a4=0
 
 while a4<1:
     print(" ")
     print("Introduzca la cantidad de productos a pagar: ")
-    cantidad_producto=int(input("- "))
+    cantidad_producto = int(input("-> "))
     print("Introduzca el precio original de los producto: ")
-    precio_original=float(input("- "))
+    precio_original = float(input("-> "))
 
     a2 = precio_original
     a3 = 1
 
     while a3 < cantidad_producto:
-        precio_original=float(input("- "))
-        a3 = a3+1
-        a2 = a2+precio_original
+        precio_original = float(input("-> "))
+        a3 = a3 + 1
+        a2 = a2 + precio_original
 
     print("Introduzca el porcentaje de descuento aplicado (solo el número, por favor): ")
-    descuento=float(input("- "))
+    descuento = float(input("-> "))
     print("Introduzca el porcentaje de IVA (solo el número, por favor): ")
-    IVA=float(input("- "))
+    IVA = float(input("-> "))
 
-    precio_descuento=((descuento/100)*a2)
-    precio_final=((precio_descuento*IVA)/100)+precio_descuento
-    IVA2=IVA/100
+    precio_descuento = ((descuento / 100) * a2)
+    precio_final = ((precio_descuento * IVA) / 100) + precio_descuento
+    IVA2 = IVA / 100
 
     print(" ")
     print("Sumatoria de todos los producto: C$", a2)

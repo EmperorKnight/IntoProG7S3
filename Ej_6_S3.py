@@ -1,9 +1,13 @@
+#Ejercicio 6: Cálculo del índice de masa corporal (IMC) 
+
 a4=0
 
 while a4<1:
     print(" ")
-    altura=float(input('Introduzca la altura en metros: '))
-    peso=float(input("Introduzca el peso en kilogramos: "))
+    print('Introduzca la altura en metros:')
+    altura = float(input("-> "))
+    print("Introduzca el peso en kilogramos:")
+    peso = float(input("-> "))
 
     IMC = peso/(altura * altura)
 

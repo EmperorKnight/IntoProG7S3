@@ -1,16 +1,21 @@
+#Ejercicio 3: Cálculo del salario neto de un empleado 
+
 a4=0
 
 while a4<1:
     print(" ")
-    sbruto=float(input("Introduzca el salario bruto del empledo: C$ "))
-    irenta = sbruto*0.1
-    seguroSocial = sbruto*0.05
-    fpensiones = sbruto*0.03
-    descuentos = irenta+seguroSocial+fpensiones
-    sneto = sbruto-descuentos
-    print("El salario bruto es: C$ ", sbruto)
+    print("Introduzca el salario bruto del empledo:")
+    salario_bruto = float(input("-> "))
+    
+    impuesto_renta = salario_bruto * 0.1
+    seguro_social = salario_bruto * 0.05
+    fondo_pensiones = salario_bruto * 0.03
+    descuentos = impuesto_renta + seguro_social + fondo_pensiones
+    salario_neto = salario_bruto - descuentos
+    
+    print("El salario bruto es: C$ ", salario_bruto)
     print("El descuento total es: C$ ", descuentos)
-    print("El salario neto es: C$ ", sneto)
+    print("El salario neto es: C$ ", salario_neto)
 
     print(" ")
     print("¿Desea reintroducir los valores?")
