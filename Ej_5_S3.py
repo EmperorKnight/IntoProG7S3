@@ -7,12 +7,16 @@ while a4<1:
     print('Introduzca la cantidad total de segundos:')
     total_segundos = int(input("-> "))
 
-    horas = int(total_segundos/3600)
-    minutos = int((total_segundos-(horas*3600))/60)
-    segundos = int(total_segundos-(minutos*60))
+    horas = total_segundos // 3600
+    segundos_restantes = total_segundos - (horas * 3600)
+    minutos = segundos_restantes // 60
+    segundos = segundos_restantes - (minutos * 60)
 
     print(" ")
-    print('Conversion completa: ', horas, ':', minutos, ':', segundos)
+    print('Conversion completa: ')
+    print("Horas: ", horas)
+    print("Minutos: ", minutos)
+    print("Segundos: ", segundos)
     
     print (" ")
     print("¿Desea reintroducir los valores?")

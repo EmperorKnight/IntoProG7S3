@@ -1,6 +1,6 @@
 # Ejercicio 8: Conversión de una cantidad en dólares a distintas monedas
 
-euro = 0.90
+euro = 0.91
 libra_santa_helena = 0.77
 libra_egipcia = 50.59
 libra_esterlina = 0.76

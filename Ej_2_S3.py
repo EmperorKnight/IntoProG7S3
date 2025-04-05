@@ -12,8 +12,9 @@ while a4<1:
     area = base * altura
     perimetro = (base * 2) + (altura * 2)
     
-    print("El área del rectángulo es: ", area)
-    print("El perimetro del rectángulo es: ", perimetro)
+    print(" ")
+    print(f"El área del rectángulo es: {area:.2f}")
+    print(f"El perimetro del rectángulo es: {perimetro:.2f}")
 
     print(" ")
     print("¿Desea reintroducir los valores?")

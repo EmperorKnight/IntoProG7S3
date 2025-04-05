@@ -11,8 +11,9 @@ while a4<1:
     seguro_social = salario_bruto * 0.05
     fondo_pensiones = salario_bruto * 0.03
     descuentos = impuesto_renta + seguro_social + fondo_pensiones
-    salario_neto = salario_bruto - descuentos
-    
+    salario_neto = salario_bruto - descuentos    
+
+    print(" ")
     print("El salario bruto es: C$ ", salario_bruto)
     print("El descuento total es: C$ ", descuentos)
     print("El salario neto es: C$ ", salario_neto)

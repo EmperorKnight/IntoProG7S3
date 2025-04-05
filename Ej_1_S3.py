@@ -10,8 +10,8 @@ while a4<1:
     grado_c = ((grado_f - 32) * 5) / 9
     grado_k = 273.15 + grado_c
     
-    print("C",grado_c)
-    print("K", grado_k)
+    print(f"°C {grado_c:.2f}")
+    print(f"°K {grado_k:.2f}")
 
     print(" ")
     print("¿Desea reintroducir los valores?")
